@@ -1,0 +1,81 @@
+.parent{
+    height: 800px;
+    width: 800px;
+    background-color: red;
+    position: relative;
+    /* position: relative; */
+}
+.child{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+
+    /* По умолчанию */
+    position: static;
+
+
+    /* position: relative; */
+
+
+    position: absolute;
+    bottom: 0;
+
+    /* left: -100px; */
+    /* left: 100%; */
+    /* bottom: 100%; */
+    /* top: 10%; */
+    /* right: 0; */
+    /* top: 125px;
+   right: ;
+    bottom: ;
+    left: ;  */
+
+
+  
+
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-left: auto;
+
+
+    position: absolute;
+    /* left: 100%; */
+
+    z-index: 100;
+
+
+    /* position: fixed; */
+    top: 50%;
+    right: 0;
+
+    position: sticky;
+
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding-left: 30px;
+    position: relative;
+
+}
+li:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 6px;
+    width: 6px;
+    background-color: red;
+    margin-top: -3px;
+    /* border-radius: 5px; */
+    border-radius: 50%;
+
+}

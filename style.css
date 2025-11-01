@@ -42,3 +42,11 @@ div {
 span {
     min-width: 300px;
 }
+
+ol {
+    background-color: red;
+}
+
+li span {
+    background-color: aqua;
+}
